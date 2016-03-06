@@ -13,31 +13,32 @@
         <link rel="stylesheet" href="Estilos/estandarDesarrollo.css"/>
         <link rel="stylesheet" href="Fonts/icomoon/style.css"/>
         <link rel="stylesheet" href="Estilos/bootstrap1.css"/>
+   <title>Inicio</title>
     </head>
-    <body> 
-
-        <div id="Cabezera_ti">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <p class="navbar-brand" id="titulo">
-
-                        </p>
+    <body style="background-color: #fff">     
+               <div id="contenido_principal" class="demo ui-tabs ui-widget ui-corner-all">
+                <div id="Cabezera_ti">
+                    <nav class="navbar navbar-default">
+                    <div class="container-fluid">  
+                        <div class="center_nav">
+                                <p class="titulo" style="text-align: center;">
+                                    INICIO
+                                </p>
+                        </div>
                     </div>
+                </nav>
                 </div>
-
-            </nav>
-        </div>
-        <div id="Contenedor_opciones">
-            <br>
-            <br>
-            <p id="texto">Periodo de registro de aspirantes</p>
-            <br>
-            <p id="texto">10 de Febrero al 15 de Marzo de 2016</p>
-        </div>
-        <div id="lineas" style="margin-top: 360px;">
-            <div id="azul" style="margin-top: -55px;"></div>
-            <div id="naranja" style="margin-top:-40px;"></div>
-        </div> 
+                <div id="Contenedor_opciones">
+                    <br>
+                    <br>
+                    <p id="texto">Periodo de registro de aspirantes</p>
+                    <br>
+                    <p id="texto">10 de Febrero al 15 de Marzo de 2016</p>
+                </div>
+                <div id="lineas" style="margin-top: 360px;">
+                    <div id="azul" style="margin-top: -55px;"></div>
+                    <div id="naranja" style="margin-top:-40px;"></div>
+                </div> 
+               </div>
     </body>
 </html>

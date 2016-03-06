@@ -7,11 +7,27 @@
 //Función que regresa al log in de la aplicación
 
 $('#reportes').click(function (){
-  $(".Contenido_inicio").load("vistas/reportes.jsp");
-  alert("Entra");
+  $("#Subcontenido").load("vistas/Inicio/reportes.jsp");
+  $('#menuPrincipal').css("display","block");
 });
 //Función para ingresar
 $('#button').click(function (){
      $("#Subcontenido").load("vistas/Inicio/inicio.jsp");
      $('#menuPrincipal').css("display","block");
  });
+ 
+ $('#inicio').click(function(){
+    $("#Subcontenido").load("vistas/Inicio/inicio.jsp");
+    $("#menuPrincipal").css("display","block");
+ });
+ 
+ $('#retorna_login').click(function(){
+    location.href = "Index.jsp";
+ });
+ 
+ $('#generaRepor').click(function(){
+     var tipoReporte=ObtenerValor('#repor');
+     alert("El valor es: "+tipoReporte);
+ });
+ 
+ 

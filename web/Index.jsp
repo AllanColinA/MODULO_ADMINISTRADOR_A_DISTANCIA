@@ -3,16 +3,23 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="Estilos/PAES_DIST_css.css" type="text/css">
+         <link rel="stylesheet" href="Estilos/PAES_DIST_css.css" type="text/css">
         <link rel="stylesheet" href="Estilos/estandarDesarrollo.css"/>
         <link rel="stylesheet" href="Fonts/icomoon/style.css"/>
         <link rel="stylesheet" href="Estilos/bootstrap1.css"/>
+        <link rel="stylesheet" href="Estilos/bootstrap.min.css"/>
+        <script src="jQueryClases/admin_Dis.js"></script>
+        <script src="jQueryClases/bootstrap.min.js"></script>
+        <script src="jQueryClases/jquery-1.11.1.min.js"></script>
     </head>
     <body style="background-color: #EAEAEA">
         <!--        sdfhyjukkjd
                 sdhjkrd
                 sdhjkrd-->
         <header>
+            <div class="page-header">
+                
+            </div>
             <div class="encabezado">
                 <img alt="la imagen" src="Imagenes/header_ittoluca.png" title="header">                
             </div>

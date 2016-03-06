@@ -35,10 +35,10 @@
                 <li class="dropdown" id="recuperar">
                     <a id="recPreficha" class="dropdown-toggle" data-toggle="dropdown" role="button" style="text-decoration:none;cursor: pointer">Recuperar Preficha</a>
                 </li> 
-                <li class="dropdown" id="inicio" >
+                <li class="dropdown" id="mensajes" >
                     <a  class="glyphicon glyphicon-envelope" style="text-decoration:none;cursor: pointer; font-size: 18px;"></a> 
                 </li>
-                <li class="dropdown" id="inicio" >
+                <li class="dropdown" id="retorna_login" >
                     <a  class="glyphicon glyphicon-log-out" style="text-decoration:none;cursor: pointer; font-size: 18px;"></a> 
                 </li>
             </ul>
